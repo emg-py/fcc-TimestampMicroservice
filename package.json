@@ -1,0 +1,28 @@
+{
+  "name": "emg-py--fcc-timestamp_microservice",
+  "version": "1.0.0",
+  "description": "un exercice du programme freeCodeCamp.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emg-py/fcc-TimestampMicroservice.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "timestamp",
+    "microservice"
+  ],
+  "author": "py",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emg-py/fcc-TimestampMicroservice/issues"
+  },
+  "homepage": "https://github.com/emg-py/fcc-TimestampMicroservice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
