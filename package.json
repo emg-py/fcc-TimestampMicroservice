@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/emg-py/fcc-TimestampMicroservice#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "moment": "^2.19.1"
   }
 }
