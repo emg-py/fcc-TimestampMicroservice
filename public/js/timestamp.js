@@ -26,11 +26,11 @@ module.exports.timestampMicroservice = function(temps) {
     console.log(temps);
     console.log(date);
   } else if (moment(temps, 'MMMM D, YYYY', 'en', true).isValid()) {
-    date = moment.utc(temps, 'MMMM D YYYY');
+    date = moment(temps, 'MMMM D YYYY').format();
     console.log('en  ' + temps);
     console.log('en  ' + date);
   } else if (moment(temps, 'D MMMM YYYY', 'fr', true).isValid()) {
-    date = moment.utc(temps, 'D MMMM YYYY');
+    date = moment(temps, 'D MMMM YYYY', 'fr').format();
     console.log('fr  ' + temps);
     console.log('fr  ' + date);
   } else {
